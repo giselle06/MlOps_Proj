@@ -1,5 +1,6 @@
 # SLEEP HEALTH ANALYSIS 
 ![Static Badge](https://img.shields.io/badge/MLOps_Project-Data_Science?logoColor=FFBE98)
+
 This Project is based on a Sleep Health Dataset. It is a MLOps Project predicting the sleep health of a person based on their habits and various other factors. Please refer [Project Guidelines](README.md) and [Project Report]() .
 
 ## Badges
