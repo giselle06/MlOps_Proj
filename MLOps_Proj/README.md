@@ -168,7 +168,7 @@ What did you learn while building this project? What challenges did you face and
      Add additional steps to your workflow, such as linting the code, checking for code formatting, or
      deploying the application (if applicable).
      - **Submission:**
-     Share the link to your GitHub repository for evaluation. [Here](https://github.com/giselle06/MlOps_Proj/tree/main/.github)
+     Share the link to your GitHub repository for evaluation. [Here](https://github.com/giselle06/MlOps_Proj/tree/main/.github/workflows)
 
 
 ## Run Locally
