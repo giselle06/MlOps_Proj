@@ -1,0 +1,39 @@
+base:
+  project: sleephealthanalysis-project
+  random_state: 42
+  target_col: Sleep_Disorder
+
+data_source:
+  data_source_path: dataset/Sleephealth.csv
+
+load_data:
+  raw_dataset_csv: data/raw/Sleephealth.csv
+  label_encoded_data: label_encoder
+
+split_data:
+  train_path: data/processed/train_sleephealth.csv
+  test_path: data/processed/test_sleephealth.csv
+  test_size: 0.2
+
+estimators:
+  DecisionTreeClassifier:
+    params:
+      #criterion: entropy
+      #max_depth: 3
+      criterion: gini
+      max_depth: 5
+
+model_dir: models
+
+reports:
+  params: reports/params.json
+  scores: reports/scores.json
+  figures: reports/figures
+
+webapp_model_dir: prediction_service/model/model.joblib
+
+label_encoder:
+  gender: label_encoder/Gender_LabelEncoder.joblib
+  occupation: label_encoder/Occupation_LabelEncoder.joblib
+  bmi_category: label_encoder/BMI_Category_LabelEncoder.joblib
+  sleep_disorder: label_encoder/Sleep_Disorder_LabelEncoder.joblib
