@@ -6,7 +6,7 @@ from pycaret.classification import predict_model, load_model
 app = Flask(__name__)
 
 # Load the model
-model = load_model('sleep_health_model')
+model = load_model('sleep_health_model.pkl')
 
 @app.route('/')
 def home():
