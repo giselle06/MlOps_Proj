@@ -7,7 +7,7 @@ data_source:
   data_source_path: dataset/Sleephealth.csv
 
 load_data:
-  raw_dataset_csv: data/raw/Sleephealth.csv
+  raw_dataset_csv: src/data/raw/Sleephealth.csv
   label_encoded_data: label_encoder
 
 split_data:

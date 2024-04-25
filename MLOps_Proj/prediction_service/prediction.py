@@ -5,19 +5,6 @@ import joblib
 import numpy as np
 import pandas as pd
 
-import subprocess
-import sys
-
-def install(package):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-
-try:
-    import yaml
-except ImportError:
-    install('PyYAML')
-    import yaml
-
-
 params_path = "params.yaml"
 schema_path = os.path.join("prediction_service", "schema_data.json")
 
