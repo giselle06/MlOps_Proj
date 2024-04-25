@@ -133,8 +133,8 @@ What did you learn while building this project? What challenges did you face and
           Deploy the model using a deployment platform (e.g., Flask, Heroku) if desired.
      - **Submission:**
           Submit the Python code and any relevant output (e.g., evaluation metrics, plots) for review.
-          Note: This lab can be done for regression or clustering tasks by using pycaret.regression or pycaret.clustering instead of pycaret.classification.
-
+          Note: This lab can be done for regression or clustering tasks by using pycaret.regression or pycaret.clustering             instead of pycaret.classification. [Here](MLOps_Proj/notebooks/mlops_see.ipynb)
+       
 **_Assignment 2_**
 **Title: Continuous Integration with GitHub Actions**
 * Objective: 
@@ -168,7 +168,7 @@ What did you learn while building this project? What challenges did you face and
      Add additional steps to your workflow, such as linting the code, checking for code formatting, or
      deploying the application (if applicable).
      - **Submission:**
-     Share the link to your GitHub repository for evaluation.
+     Share the link to your GitHub repository for evaluation. [Here](.github/workflows)
 
 
 ## Run Locally
