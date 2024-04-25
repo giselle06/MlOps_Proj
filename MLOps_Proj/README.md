@@ -189,7 +189,7 @@ Install dependencies
 
 ```bash
   pip install pycaret[full]
-  pip install 
+  pip install sweetviz
 
 ```
 
