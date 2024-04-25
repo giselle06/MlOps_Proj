@@ -1,0 +1,30 @@
+2024-04-25 19:31:12,294:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-04-25 19:31:12,294:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-04-25 19:31:12,294:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-04-25 19:31:12,294:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-04-25 19:31:13,684:INFO:Initializing load_model()
+2024-04-25 19:31:13,684:INFO:load_model(model_name=sleep_health_model, platform=None, authentication=None, verbose=True)
+2024-04-25 19:34:49,173:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-04-25 19:34:49,173:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-04-25 19:34:49,173:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-04-25 19:34:49,173:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-04-25 19:34:50,175:INFO:Initializing load_model()
+2024-04-25 19:34:50,175:INFO:load_model(model_name=sleep_health_model, platform=None, authentication=None, verbose=True)
+2024-04-25 19:36:27,755:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-04-25 19:36:27,755:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-04-25 19:36:27,755:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-04-25 19:36:27,755:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-04-25 19:36:28,727:INFO:Initializing load_model()
+2024-04-25 19:36:28,727:INFO:load_model(model_name=sleep_health_model, platform=None, authentication=None, verbose=True)
