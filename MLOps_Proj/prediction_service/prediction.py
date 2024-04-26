@@ -58,7 +58,7 @@ def validate_input(dict_request):
     def _validate_values(col, val):
         schema = get_schema()
         if col in ["Gender", "Occupation", "BMI_Category"]:
-            if not val in schema[col].values():
+            if val not in schema[col].values():
                 raise NotInRange
         elif not (schema[col]["min"] <= float(dict_request[col]) <= schema[col]["max"]):
             raise NotInRange
